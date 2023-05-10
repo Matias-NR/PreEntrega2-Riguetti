@@ -68,6 +68,12 @@ header nav span {
   box-shadow: 0 25px 20px -12px rgba(0, 0, 0, 0.7);
 }
 
+/* contacto */
+.contacto_formulario {
+  display: flex;
+  flex-direction: column;
+}
+
 /* footer */
 .facebook {
   width: 20px;
@@ -96,6 +102,17 @@ header nav span {
     font-size: 20px;
     font-weight: bold;
     color: white;
+  }
+
+  .link_seleccionado {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .link_seleccionado:hover {
+    cursor: default;
   }
 
   .link:hover {

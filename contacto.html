@@ -21,7 +21,7 @@
         <ul>
           <li><a class="link" href="./index.html">Inicio</a></li>
           <li><a class="link" href="./tienda.html">Tienda</a></li>
-          <li><a class="link" href="./contacto.html">Contacto</a></li>
+          <li class="link_seleccionado">Contacto</li>
           <li><a class="link" href="./nosotros.html">Nosotros</a></li>
         </ul>
         <span>🍔</span>
@@ -29,22 +29,36 @@
     </header>
 
     <main>
-      <section class="m-4">
-        <div class="nosotros_container">
-          <div>
-            <h1>Somos tu tienda Online</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-              tempora, architecto repellendus ipsa unde debitis aliquam, ex
-              tenetur ab eos dolores nesciunt repudiandae itaque possimus
-              eligendi consectetur rerum sint ea?
-            </p>
-          </div>
-          <img
-            class="nosotros_imagen img-fluid"
-            src="https://st4.depositphotos.com/1006542/20437/i/450/depositphotos_204370222-stock-photo-female-customer-with-basket-of.jpg"
-            alt="foto_nosotros"
+      <section class="contacto_formulario m-4">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="nombre@ejemplo.com"
           />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Nombre y apellido</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Dejanos tu consulta</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+          <button class="contacto_enviar">Enviar</button>
         </div>
       </section>
     </main>
